@@ -1,2 +1,2 @@
-require 'mail' 
-gem 'sinatra', '1.4.5'
+require 'bundler/setup'
+Bundler.require(:default, :development)
